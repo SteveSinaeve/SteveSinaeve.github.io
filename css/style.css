@@ -28,3 +28,29 @@ nav a {
     text-decoration: none ;
     color: #007AFF; 
 } 
+
+
+#home {
+    margin-top: 14%;
+    margin-left: 12%;
+    font-weight: 300;
+    font-family: 'Open Sans';
+}
+
+#home h1 {
+    font-weight: 400;
+    font-size: 7em;
+    margin: 0;
+}
+
+.line {
+    width: 100px;
+    height: 5px;
+    background-color:#007AFF;
+}
+
+#home p {
+    font-weight: 200;
+    font-size: 2em;
+    margin: 0;
+}
