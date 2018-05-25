@@ -4,15 +4,24 @@
 }
 
 body{
+    color: #4A4D54;
     margin: 0 0 0 0px;
+    background-color: #ECEDEF;
 }
 
 nav{
+    height: 85px;
+    position: sticky;
     font-family: 'Lato';
     text-align: center;
-    margin-top: 60px;
 }
 
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
 
 nav li{
@@ -26,31 +35,76 @@ nav a {
     font-weight: 300;
     letter-spacing: 8px;
     text-decoration: none ;
-    color: #007AFF; 
+    color: #4A4D54; 
 } 
 
+#welcome {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 85px);
+    width: 100vw;
+}
 
-#home {
-    margin-top: 14%;
-    margin-left: 12%;
+#welcome h1 {
+    font-weight: 400;
+    font-size: 6em;
+    margin: 0;
+}
+
+#welcome p {
+    font-weight: 200;
+    font-size: 2em;
+    margin: 0;
+}
+
+.containerWelcome {
+    position: absolute;
+    top: 64%;
+    padding-left: 30px;
     font-weight: 300;
     font-family: 'Open Sans';
 }
 
-#home h1 {
-    font-weight: 400;
-    font-size: 7em;
-    margin: 0;
+.image {
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+}
+
+.circle {
+    border-radius: 100%;
+    background-color: #F9FAFE;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.circle img {
+    display: block;
+    padding-top: 70px;
+    margin: 0 auto;
+    max-height: 120%;
+    max-width: 100%;
 }
 
 .line {
     width: 100px;
     height: 5px;
-    background-color:#007AFF;
+    background-color:#FF2D55;
 }
 
-#home p {
+.explore {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
     font-weight: 200;
-    font-size: 2em;
-    margin: 0;
+    font-family: 'Open Sans';
 }
+
+.explore p {
+    padding-right: 80px;
+}  
+
