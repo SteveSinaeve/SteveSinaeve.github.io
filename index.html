@@ -5,44 +5,47 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="#about">
-                    ABOUT
-                </a>
-            </li>
-            <li>
-                <a href="#xp">
-                    EXPERIENCE
-                </a>
-            </li>
-            <li>
-                <a href="#contact">
-                    CONTACT
-                </a>
-            </li>
-        </ul>
-    </nav>
-
-    <section id='welcome'>
-            <div class='image'>
-                <p>Steve Sinaeve</p>
-                <div class='circle'>
-                    <img src="./img/steve.png" alt="Steve">
-                </div>    
+    <div class='backgroundblock'>
+            <div class='menu'>
+                <!-- <a href=''>Menu</a> -->
+                <div class="menu-wrapper">
+                        <div class="hamburger-menu"></div>	  
+                </div>
+            </div>                 
+        <div class='header'>
+            Steve Sinaeve
+        </div>
+        <div class='whitespace'></div>
+        <div class='flexbox'>
+            <div class='content'>
+                <div id='intro'>
+                    <div class='titleIntro'>
+                        <h1>HELLO</h1>
+                        <h2>Welcome to my portfolio</h2>
+                    </div>  
+                    <div class='titleText'>
+                        <p>Here you can find more information about me, my skills, experience and so much more...</p>
+                        <h2>ENJOY</h2>
+                    </div>
+                </div>
+                <div id='about'>
+                    <div class='title'>
+                        <h1>ABOUT ME</h1>
+                        <div class='line'></div>
+                    </div>
+                    <div class='sectionContent'>typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by the classical author and philosopher Cicero. Its words and letters have been changed by addition or removal, so to deliberately render its content nonsensical; it's not genuine, correct, or comprehensible Latin anymore. While lorem ipsum's still resembles classical Latin, it actually has no meaning whatsoever. As Cicero's text doesn't contain the letters K, W, or Z, alien to latin, these, and others are often inserted randomly to mimic the typographic appearence of European languages, as are digraphs not to be found in the original.</div>
+                    <div class='selfpic'>
+                        <img src='./img/steve.png'/>
+                    </div>
+                </div>
             </div>
-            <div class='containerWelcome'>
-                <h1>Hello.</h1>
-                <div class="line"></div>
-                <p>Welcome to my portfolio.</p>
-            </div>
-            <div class='explore'>
-                <p>Explore</p>
-            </div>
-    </section>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/code.js"></script>
 </body>
 </html>
