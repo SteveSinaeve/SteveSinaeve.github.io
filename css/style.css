@@ -28,7 +28,7 @@ a {
 
 .header {
     font-weight: 600;
-    width: 50%;
+    width: 60%;
     text-align: left;
     font-size: 4rem;
 }
@@ -44,7 +44,7 @@ a {
 }
 
 .content {
-    width: 60%;
+    width: 65%;
     border-radius: 5px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
@@ -245,7 +245,7 @@ a {
 .menu-list-items {
     display: table-cell;
     vertical-align: middle;
-
+    
 }
 
 .menu-list-items a {
@@ -263,3 +263,24 @@ a {
 }
 
 /* End of hamburger menu */
+
+/* contact */
+
+.contact {
+    z-index: 1;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    width: 100px;
+}
+
+.linkedIn {
+    display: block;
+    float: right;
+    width: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* End of contact*/
