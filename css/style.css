@@ -119,6 +119,11 @@ a {
     font-size: 3rem;
 }
 
+#skills p {
+    padding-top: 8%;
+    float: right;
+}
+
 .skill {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -148,6 +153,16 @@ a {
     width: 100%;
     display: block;
     padding-bottom: 20px;
+}
+
+#experience {
+    color: white;
+    background-color: #FFDD00;
+    padding: 10% 8%;
+}
+
+#experience h1 {
+    font-size: 3rem;
 }
 
 
@@ -221,6 +236,7 @@ a {
 }
 
 .menu-block {
+    z-index: 999;
     height: 100%;
     background-color: white;
     color: black;
@@ -245,7 +261,7 @@ a {
 .menu-list-items {
     display: table-cell;
     vertical-align: middle;
-    
+
 }
 
 .menu-list-items a {
@@ -267,20 +283,29 @@ a {
 /* contact */
 
 .contact {
-    z-index: 1;
     position: fixed;
-    bottom: 0%;
-    right: 0%;
-    width: 100px;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
 }
 
-.linkedIn {
+.socialMedia {
     display: block;
     float: right;
-    width: 50%;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    width: 100%;
 }
+
+img{
+    border-radius: 5px;
+    box-shadow: 0 15px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22); 
+}
+
+.modify-social {
+    margin-top: 10px;
+    padding: 5 5 5 5px;
+    width: 40px;
+}
+
 
 
 /* End of contact*/
